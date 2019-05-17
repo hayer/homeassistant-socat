@@ -102,4 +102,4 @@ Alias=zwave.service
 
 Based on [homeassistant-home-assistant](https://hub.docker.com/r/homeassistant/home-assistant/) image, [published on docker hub](https://hub.docker.com/r/forepe/homeassistant-socat/).
 
-Based on [vladbabii/homeassistant-socat](https://hub.docker.com/r/vladbabii/homeassistant-socat).
+Based on [vladbabii/homeassistant-socat](https://hub.docker.com/r/vladbabii/homeassistant-socat) and [forepe/homeassistant-socat](https://hub.docker.com/r/forepe/homeassistant-socat).
