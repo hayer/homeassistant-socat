@@ -24,6 +24,9 @@ docker run -d \
   -e "SOCAT_ZWAVE_HOST=127.0.0.1" \
   -e "SOCAT_ZWAVE_PORT=7676" \
   -e "SOCAT_ZWAVE_LINK=/dev/zwave" \
+  -e "SOCAT_ZIGBEE_HOST=127.0.0.1" \
+  -e "SOCAT_ZIGBEE_PORT=7677" \
+  -e "SOCAT_ZIGBEE_LINK=/dev/zigbee" \
   -e "PAUSE_BETWEEN_CHECKS=10" \
   -p "9123:8123" \
   --mount type=bind,source="$DIR/config",target=/config \

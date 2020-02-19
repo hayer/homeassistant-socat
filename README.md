@@ -55,6 +55,20 @@ Where socat should connect to. Will be used as tcp://192.168.5.5:7676
 
 What the zwave device should be mapped to. Use this in your homeassistant configuration file.
 
+
+
+**SOCAT_ZIGBEE_TYPE**="tcp"
+
+**SOCAT_ZIGBEE_HOST**="192.168.5.5"
+
+**SOCAT_ZIGBEE_PORT**="7677"
+
+Where socat should connect to. Will be used as tcp://192.168.5.5:7677
+
+**SOCAT_ZIGBEE_LINK**="/dev/zigbee"
+
+What the zwave device should be mapped to. Use this in your homeassistant configuration file.
+
 # MySQL options
 
 **MYSQL_HOST**="1.2.3.4"
